@@ -1,0 +1,12 @@
+{
+  "test": "Diebold-Mariano",
+  "null_hypothesis": "Equal forecast accuracy",
+  "dm_statistic": 10.260852434866154,
+  "p_value": 0.0,
+  "significance_level": 0.05,
+  "reject_null": true,
+  "mse_tft": 0.018632163422140646,
+  "mse_lstm": 0.028894314542412758,
+  "mse_reduction_percent": 35.5161604723612,
+  "n_samples": 4080
+}

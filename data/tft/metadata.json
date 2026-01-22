@@ -1,0 +1,11 @@
+{
+  "creation_date": "2026-01-08 14:15:28.789171",
+  "total_features": 73,
+  "normalization_method": "StandardScaler per ticker",
+  "split_method": "temporal",
+  "split_ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "peft_type": "LORA",
+  "task_type": "CAUSAL_LM",
+  "inference_mode": true,
+  "r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "v_proj",
+    "o_proj",
+    "down_proj",
+    "gate_proj",
+    "up_proj",
+    "k_proj"
+  ],
+  "bias": "none",
+  "fan_in_fan_out": false,
+  "init_lora_weights": true,
+  "modules_to_save": null,
+  "base_model_name_or_path": "meta-llama/Llama-2-7b-hf"
+}

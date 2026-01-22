@@ -1,0 +1,24 @@
+{
+    "model_name": "meta-llama/Llama-2-7b-hf",
+    "model_type": "llama2_lora_sentiment",
+    "num_labels": 3,
+    "label_mapping": {
+      "0": "negative",
+      "1": "neutral",
+      "2": "positive"
+    },
+    "metrics": {
+      "mcc_internal": 0.9926,
+      "mcc_external": 0.8865,
+      "accuracy_internal": 0.9954,
+      "accuracy_external": 0.9222
+    },
+    "training_info": {
+      "date": "2026-01-03",
+      "method": "5-fold cross-validation",
+      "duration_hours": 2.2,
+      "lora_r": 16,
+      "lora_alpha": 32
+    }
+  }
+  

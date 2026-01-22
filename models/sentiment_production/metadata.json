@@ -1,0 +1,13 @@
+{
+  "model": "distilbert-base-uncased",
+  "best_fold": 0,
+  "mcc": 0.9599491275806269,
+  "accuracy": 0.9749247743229689,
+  "num_labels": 3,
+  "labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "training_date": "2026-01-02T14:16:34.782010"
+}

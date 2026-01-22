@@ -1,0 +1,10 @@
+{
+  "mae": 0.0,
+  "rmse": 0.0,
+  "r2": 1.0,
+  "mape": 0.0,
+  "baseline_mae": 0.12924985587596893,
+  "baseline_r2": 0.0,
+  "n_samples": 5,
+  "pred_length": 5
+}

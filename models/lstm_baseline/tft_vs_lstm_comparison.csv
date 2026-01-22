@@ -1,0 +1,8 @@
+Metric,LSTM Baseline,TFT,Improvement
+MAE,0.1243,0.0895,28.0%
+RMSE,0.1700,0.1365,19.7%
+R²,0.9730,0.9743,0.13%
+Mean Error,0.1029,0.0024,Better
+Std Error,0.1353,~0.13,Similar
+Mean Predicted,1.1891,1.3933,Less biased
+Training Time,~16 min,23h 1min,Slower

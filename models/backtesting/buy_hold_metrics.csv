@@ -1,0 +1,2 @@
+total_return,annualized_return,volatility,sharpe_ratio,sortino_ratio,calmar_ratio,max_drawdown,drawdown_days,win_rate,num_trades,final_value,total_days,strategy
+0.5364307823433918,0.06345826897447693,0.6656137676051056,0.06529051995249562,0.08960770150201791,0.0827459125385979,-0.7669051802997037,1613,0.5258669698692439,2,15364.307823433917,1759,Buy & Hold

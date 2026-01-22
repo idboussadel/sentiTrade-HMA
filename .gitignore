@@ -1,0 +1,94 @@
+# .gitignore for sentiTrade-HMA
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# VS Code
+.vscode/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+lenv/
+
+# Logs
+logs/
+*.log
+
+# Ignore everything in lightning_logs except .gitkeep
+lightning_logs/
+
+# Ignore everything in figures except .gitkeep
+figures/*
+!figures/.gitkeep
+
+# Ignore egg-info
+*.egg-info/
+
+# Ignore Docker and deployment files
+Dockerfile
+*.toml
+Procfile
+runtime.txt
+models/tft_logs/
+results/
+models/qlora_5fold/fold_*/checkpoint-*/
+models/qlora_5fold/fold_*/optimizer.pt
+models/qlora_5fold/fold_*/scheduler.pt
+models/qlora_5fold/fold_*/rng_state.pth
+models/qlora_5fold/fold_*/trainer_state.json
+
+models/qlora_5fold/fold_2_final/
+models/qlora_5fold/fold_3_final/
+models/qlora_5fold/fold_4_final/
