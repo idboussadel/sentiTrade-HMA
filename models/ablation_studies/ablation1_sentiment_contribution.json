@@ -1,0 +1,23 @@
+{
+  "study": "Sentiment Features Contribution",
+  "baseline": {
+    "mae": 1.63,
+    "rmse": 2.0,
+    "mape": 46.12,
+    "r2": 0.85,
+    "n_samples": 4080
+  },
+  "full": {
+    "mae": 0.0895,
+    "rmse": 0.1365,
+    "mape": 1.85,
+    "r2": 0.9743,
+    "n_samples": 4080
+  },
+  "improvements": {
+    "mae_pct": 94.50920245398774,
+    "rmse_pct": 93.175,
+    "mape_pct": 95.9887250650477,
+    "r2_pct": 14.623529411764716
+  }
+}

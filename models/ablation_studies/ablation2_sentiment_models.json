@@ -1,0 +1,23 @@
+{
+  "study": "Sentiment Model Comparison",
+  "models": {
+    "finbert": {
+      "model": "FinBERT",
+      "accuracy": 0.97,
+      "source": "literature_baseline",
+      "note": "Baseline from Araci et al. (2019)"
+    },
+    "llama2_qlora": {
+      "model": "Llama-2-7B + QLoRA",
+      "accuracy": 0.99,
+      "mcc": 0.9926,
+      "source": "notebook09_documented",
+      "note": "Target accuracy achieved"
+    }
+  },
+  "comparison": {
+    "finbert_accuracy": 0.97,
+    "llama_accuracy": 0.99,
+    "improvement_pct": 2.061855670103095
+  }
+}

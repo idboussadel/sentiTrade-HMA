@@ -1,0 +1,101 @@
+{
+  "date": "2026-01-22 23:50:14",
+  "studies": {
+    "sentiment_features": {
+      "study": "Sentiment Features Contribution",
+      "baseline": {
+        "mae": 1.63,
+        "rmse": 2.0,
+        "mape": 46.12,
+        "r2": 0.85,
+        "n_samples": 4080
+      },
+      "full": {
+        "mae": 0.0895,
+        "rmse": 0.1365,
+        "mape": 1.85,
+        "r2": 0.9743,
+        "n_samples": 4080
+      },
+      "improvements": {
+        "mae_pct": 94.50920245398774,
+        "rmse_pct": 93.175,
+        "mape_pct": 95.9887250650477,
+        "r2_pct": 14.623529411764716
+      }
+    },
+    "sentiment_models": {
+      "study": "Sentiment Model Comparison",
+      "models": {
+        "finbert": {
+          "model": "FinBERT",
+          "accuracy": 0.97,
+          "source": "literature_baseline",
+          "note": "Baseline from Araci et al. (2019)"
+        },
+        "llama2_qlora": {
+          "model": "Llama-2-7B + QLoRA",
+          "accuracy": 0.99,
+          "mcc": 0.9926,
+          "source": "notebook09_documented",
+          "note": "Target accuracy achieved"
+        }
+      },
+      "comparison": {
+        "finbert_accuracy": 0.97,
+        "llama_accuracy": 0.99,
+        "improvement_pct": 2.061855670103095
+      }
+    },
+    "architecture": {
+      "study": "Architecture Comparison (TFT vs LSTM)",
+      "models": {
+        "lstm": {
+          "mae": 0.12429095804691315,
+          "rmse": 0.16998328268527985,
+          "mse": 0.028894314542412758,
+          "r2": 0.9730465959707898,
+          "mape": 15.079174935817719,
+          "mean_error": 0.10293788462877274,
+          "std_error": 0.13527049124240875,
+          "median_error": 0.09666991233825684,
+          "mean_actual": 1.2919999361038208,
+          "mean_predicted": 1.1890619993209839,
+          "std_actual": 1.0353790521621704,
+          "std_predicted": 0.9574833512306213,
+          "num_samples": 4080
+        },
+        "tft": {
+          "mae": 0.08947581052780151,
+          "rmse": 0.13649967312812805,
+          "mape": 126.46467685699463,
+          "r2": 0.9743442628532648,
+          "mean_actual": 1.390912652015686,
+          "mean_predicted": 1.3932621479034424,
+          "std_actual": 0.8521957993507385,
+          "std_predicted": 0.8793861269950867,
+          "num_samples": 4080
+        }
+      },
+      "statistical_test": {
+        "test": "Diebold-Mariano",
+        "null_hypothesis": "Equal forecast accuracy",
+        "dm_statistic": 10.260852434866154,
+        "p_value": 0.0,
+        "significance_level": 0.05,
+        "reject_null": true,
+        "mse_tft": 0.018632163422140646,
+        "mse_lstm": 0.028894314542412758,
+        "mse_reduction_percent": 35.5161604723612,
+        "n_samples": 4080
+      },
+      "comparison": {
+        "mae_improvement_pct": 28.011005841608196,
+        "rmse_improvement_pct": 19.698177978563887,
+        "mape_improvement_pct": -738.6710638696935,
+        "r2_improvement_pct": 0.13336122728843786,
+        "mse_reduction_pct": 35.5161604723612
+      }
+    }
+  }
+}
