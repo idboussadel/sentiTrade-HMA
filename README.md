@@ -1,8 +1,8 @@
 # SentiTrade-HMA
 
 <div align="center">
-
-![SentiTrade Logo](app/static/images/logo.png)
+  
+<img width="342" height="286" alt="FreeSample-Vectorizer-io-image-removebg-preview (1)" src="https://github.com/user-attachments/assets/f71d0ae6-2f2e-47d5-aecb-2ee540e91e7a" />
 
 **A Synergistic Framework for Algorithmic Trading via Fusion of Large Language Models and Temporal Fusion Transformers**
 
@@ -36,8 +36,8 @@ SentiTrade-HMA is a production-ready algorithmic trading system that combines **
 ## 🏗️ Architecture
 
 <div align="center">
-
-![SentiTrade-HMA Architecture](app/static/images/image.png)
+  
+<img width="1360" height="784" alt="image" src="https://github.com/user-attachments/assets/ca2e0686-2ab5-4fb1-ab9a-4d7f58268659" />
 
 **System Architecture: Multi-Source Data → LLM Sentiment Analysis → TFT Forecasting → Trading Signals**
 
