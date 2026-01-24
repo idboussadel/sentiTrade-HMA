@@ -2,7 +2,7 @@
 
 <div align="center">
   
-<img width="286" height="150" alt="FreeSample-Vectorizer-io-image-removebg-preview (1)" src="https://github.com/user-attachments/assets/f71d0ae6-2f2e-47d5-aecb-2ee540e91e7a" />
+<img alt="FreeSample-Vectorizer-io-image-removebg-preview (1)" src="https://github.com/user-attachments/assets/f71d0ae6-2f2e-47d5-aecb-2ee540e91e7a" />
 
 **A Synergistic Framework for Algorithmic Trading via Fusion of Large Language Models and Temporal Fusion Transformers**
 
